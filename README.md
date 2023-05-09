@@ -1,2 +1,2 @@
 # 3_practice
-HTML Project in SDIs course
+HTML Project of SDIs course
