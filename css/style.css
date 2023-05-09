@@ -1,0 +1,53 @@
+nav a{
+}
+nav a.active {
+	color: #DC143C;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 18px;
+	margin-left:10px;
+	font-family: serif;
+
+	
+}
+nav a.non_active {
+	color: black;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+	margin-left:10px;
+	font-family: serif;
+
+
+}
+h2 {
+    text-align: left;
+	margin-left: 250px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	color: grey;
+}
+
+.container {
+	padding-left: 5%;
+	padding-right: 5%;
+
+}
+
+
+#map {
+	margin-left: 50px;	
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  color: white;
+  text-align: left;
+  text-indent: 15px;
+  font-family: serif;
+ }
+</style>
