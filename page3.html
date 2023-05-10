@@ -5,42 +5,30 @@
  <link rel="stylesheet" href="css/style.css"> 
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
 
- 
- 
  <title>WebMapping</title>
  </head>
 <body>
 <div class="header">
 	<img src="img/banner_header.png">
-	
 	<nav>
 	<a href="index.html" class="non_active">Basic Map</a>
-
 	<a href="page2.html" class="non_active">Choropleth Map</a>
 	<a href="page3.html" class="active">Heatmap</a>
-
 	</nav>
-	
 </div>
 <div class="content">
-
-	 <h2>WEB GIS Application</h2>
-	 
+	 <h2>Heatmap of cell towers</h2>
 </div>
- 
 <div id="map" style="height: 400px; width: 650px;" ></div>
 
 <div>
  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script> 
- <script src="js/app.js"></script> 
-  <script src="js/choroplethmap.js"></script>
-
-
+ <script src="https://cdn.jsdelivr.net/npm/leaflet.heat@0.2.0/dist/leaflet-heat.min.js"></script>
+ <script src="js/heatmap.js"></script>
 </div>
 
 <div class="footer">
   <p>&copy; Alexandra Tzika, Tartu University, 2023</p>
-  
 </div>
 
 </body>

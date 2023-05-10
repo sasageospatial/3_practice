@@ -4,12 +4,15 @@
  <meta charset="utf-8" />
  <link rel="stylesheet" href="css/style.css"> 
  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+ <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" /> 
+ <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
  
  
  
  <title>WebMapping</title>
  </head>
 <body>
+
 <div class="header">
 	<img src="img/banner_header.png">
 	<nav>
@@ -21,7 +24,8 @@
 <div class="content">
 
 	 <h2>WEB GIS Application</h2>
-	 
+	 <button onclick="defaultMapSettings()">Default zoom view</button>
+
 </div>
 
 <div class="container">
@@ -33,7 +37,7 @@
 <div>
  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 <script src="https://unpkg.com/geojson-vt@3.2.0/geojson-vt.js"></script>
-
+<script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script> 
 <script src="leaflet-geojson-vt.js"></script> 
 <script src="js/app.js"></script> 
 
