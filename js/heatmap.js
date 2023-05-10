@@ -6,14 +6,10 @@ L.tileLayer('https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png', {
 });
 osm.addTo(map)
 
-//https://sasageospatial.github.io/3_practice
-
-
 // default map settings
 function defaultMapSettings() {
  map.setView([58.373523, 26.716045], 12)
 }
-
 addGeoJson('geojson/tartu_city_celltowers_edu.geojson')
 // add geoJSON layer
 async function addGeoJson(url) {
@@ -21,7 +17,6 @@ async function addGeoJson(url) {
  const data = await response.json()
  console.log(data.features[0]) 
 }
-
 addGeoJson('geojson/tartu_city_celltowers_edu.geojson')
 // add geoJSON layer
 async function addGeoJson(url) {
@@ -37,8 +32,6 @@ function heatDataConvert(feature) {
  feature.properties.area,
  ]
 }
-
-
 addGeoJson('geojson/tartu_city_celltowers_edu.geojson')
 // add geoJSON layer
 async function addGeoJson(url) {

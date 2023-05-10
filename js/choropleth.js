@@ -5,15 +5,10 @@ L.tileLayer('https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png', {
  attribution: 'OpenStreetMap contributors',
 });
 osm.addTo(map)
-
-//https://sasageospatial.github.io/3_practice
-
-
 // default map settings
 function defaultMapSettings() {
  map.setView([58.373523, 26.716045], 12)
 }
-
 addGeoJson('geojson/tartu_city_districts_edu.geojson')
 // add geoJSON layer
 async function addGeoJson(url) {
